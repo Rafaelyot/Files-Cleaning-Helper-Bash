@@ -10,15 +10,10 @@ Usage: totalspace.sh [OPTION]... [DIRECTORY(s)]
     Options:
 
     		-a: Sort alphabetically
-
     		-r: Sort in reverse order
-
     		-d [date]: Maximum file access date
-
     		-l [int]: Number of the biggest files to be consider in each directory
-
     		-L [int]: Number of the biggest files to be consider in all directories
-
     		-n [regex expression]: Consider only files that match the specified regex expression
 
 Usage: nespace.sh [OPTION]... [DIRECTORY(s)]
@@ -28,7 +23,6 @@ Usage: nespace.sh [OPTION]... [DIRECTORY(s)]
     Options:
 
             -All options above
-
             -e [file name(path)]: Consider only files that are not included in the specified file
 
 Warning: -l and -L cant be selected simultaneously,other combinations are possible
