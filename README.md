@@ -3,8 +3,7 @@ Bash scripts to help a linux user dealing with management of files
 ## Description
 Those two bash scripts allows the listing of files according to the chosen option
 ## Usage
-'''
-Usage: totalspace.sh [OPTION]... [DIRECTORY(s)]
+Usage: totalspace.sh [OPTION]... [DIRECTORY(s)]\n
     At least ONE directory must be passed
     Options:
     		-a: Sort alphabetically
@@ -19,6 +18,6 @@ Usage: nespace.sh [OPTION]... [DIRECTORY(s)]
             -All options above
             -e [file name(path)]: Consider only files that are not included in the specified file
 Warning: -l and -L cant be selected simultaneously,other combinations are possible
-'''
+
 
 
